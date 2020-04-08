@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài 3: Sử dụng các hàm có sẵn của mảng</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let first = 'The Quick Brown Fox';
+		let last  = '';
+		for (let i = 0; i < first.length; i++) {
+			if (first[i] === first[i].toUpperCase()) {
+				// Là chữ hoa
+				last += first[i].toLowerCase()
+			}else{
+				last += first[i].toUpperCase()
+				// là chữ thường.
+			}
+		}
+		
+		document.write(last);
+	</script>
+</body>
+</html>
